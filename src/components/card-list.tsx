@@ -48,7 +48,11 @@ export const CardList: React.FC = () => {
       {
         github {
           viewer {
-            repositories(last: 20, privacy: PUBLIC) {
+            repositories(
+              last: 20
+              privacy: PUBLIC
+              orderBy: { field: CREATED_AT, direction: DESC }
+            ) {
               edges {
                 node {
                   id
@@ -83,7 +87,9 @@ export const CardList: React.FC = () => {
   const { edges } = data.github.viewer.repositories
   return (
     <div className="container">
-      <div className="row">
+      <h3 className="text-center">Projects</h3>
+
+      <div className="row mt-5">
         {edges.map(item => {
           if (item.node.isFork) {
             return null
