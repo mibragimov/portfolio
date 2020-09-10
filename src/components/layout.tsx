@@ -9,6 +9,7 @@ const Container = styled.div`
 const Footer = styled.footer`
   text-align: center;
   font-size: 0.8rem;
+  padding: 1rem 0;
 
   a {
     text-decoration: none;

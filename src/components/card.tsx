@@ -2,7 +2,7 @@ import React from "react"
 import { Node } from "./card-list"
 import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {} from "@fortawesome/free-brands-svg-icons"
+import {} from "@fortawesome/free-solid-svg-icons"
 
 interface CardProps {
   item: Node
@@ -12,9 +12,9 @@ const CardContainer = styled.div`
   height: 100%;
   box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.25);
   transition: transform 0.2s ease;
-  background-color: #eee;
+  background-color: #fff;
   border: none;
-  cursor: pointer;
+
   &:hover {
     transform: translateY(-2px);
   }
@@ -27,7 +27,7 @@ export const Card: React.FC<CardProps> = ({ item }) => {
   return (
     <CardContainer className="card">
       <div className="card-body">
-        <h5 className="card-title">{name}</h5>
+        <h5 className="card-title text-uppercase">{name}</h5>
 
         <p className="card-text">{description}</p>
 
@@ -46,7 +46,7 @@ export const Card: React.FC<CardProps> = ({ item }) => {
           {repositoryTopics.nodes.map(repo => (
             <span
               key={repo.topic.id}
-              className="badge bg-secondary mr-1 text-capitalize"
+              className="badge bg-secondary mr-1 text-uppercase"
             >
               {repo.topic.name}
             </span>
@@ -59,13 +59,15 @@ export const Card: React.FC<CardProps> = ({ item }) => {
         >
           Source Code
         </a>
-        <a
-          href={homepageUrl}
-          target="_blank"
-          className="card-link text-decoration-none"
-        >
-          Live
-        </a>
+        {homepageUrl && (
+          <a
+            href={homepageUrl}
+            target="_blank"
+            className="card-link text-decoration-none"
+          >
+            Live
+          </a>
+        )}
       </div>
     </CardContainer>
   )
