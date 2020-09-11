@@ -58,7 +58,7 @@ export const Header: React.FC = () => {
         <a href="https://www.linkedin.com/in/muhammadibragimov" target="_blank">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="https://twitter.com/MuhammadIbragi1" target="_blank">
+        <a href="https://twitter.com/_mibragimov" target="_blank">
           <FontAwesomeIcon icon={faTwitterSquare} />
         </a>
         <a href="https://github.com/mibragimov/" target="_blank">
