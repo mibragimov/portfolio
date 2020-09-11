@@ -4,7 +4,6 @@ import { Header } from "./header"
 
 const Container = styled.div`
   font-family: "Aleo";
-  background-color: #eee;
 `
 const Footer = styled.footer`
   text-align: center;

@@ -23,12 +23,15 @@
     "gatsby-source-filesystem": "^2.3.28",
     "gatsby-source-graphql": "^2.7.3",
     "gatsby-transformer-sharp": "^2.5.14",
+    "jscharting-react": "^1.1.0-7",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-google-charts": "^3.0.15",
     "react-helmet": "^6.1.0",
     "styled-components": "^5.2.0",
-    "typeface-aleo": "^0.0.69"
+    "typeface-aleo": "^0.0.69",
+    "zingchart-react": "^3.0.0"
   },
   "devDependencies": {
     "prettier": "2.1.1"

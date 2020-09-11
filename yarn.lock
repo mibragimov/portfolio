@@ -8476,6 +8476,18 @@ jsbn@~0.1.0:
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
   integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
 
+jscharting-react@^1.1.0-7:
+  version "1.1.0-7"
+  resolved "https://registry.yarnpkg.com/jscharting-react/-/jscharting-react-1.1.0-7.tgz#c2a8dee5ed1a5e44abe7162689da506937d7046a"
+  integrity sha512-/VUe7ZgNhID6WVLq7/kMeRWWwXJ2GUlKBZzz8dNloT0SDnviMjQDD2pFpQtT3PK1ELTUhshe8ruJSoyBOd28kA==
+  dependencies:
+    jscharting "^2.9.0-7"
+
+jscharting@^2.9.0-7:
+  version "2.9.0-9"
+  resolved "https://registry.yarnpkg.com/jscharting/-/jscharting-2.9.0-9.tgz#eec33d840e42c817d132817d1f68a55acadcdd70"
+  integrity sha512-1hMYn/QKGpzhHEPe1y1J3KcGw3ytRC06AoOij84+FoU8yhaJR3AI5V+fF18SpGfA42NOGaCQGc6egdqVJ+s6tw==
+
 jsesc@^2.5.1:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-2.5.2.tgz#80564d2e483dacf6e8ef209650a67df3f0c283a4"
@@ -11277,6 +11289,13 @@ react-focus-lock@^2.3.1:
     use-callback-ref "^1.2.1"
     use-sidecar "^1.0.1"
 
+react-google-charts@^3.0.15:
+  version "3.0.15"
+  resolved "https://registry.yarnpkg.com/react-google-charts/-/react-google-charts-3.0.15.tgz#30759a470f48336e744fd383d054122b039a1ff2"
+  integrity sha512-78s5xOQOJvL+jIewrWQZEHtlVk+5Yh4zZy+ODA1on1o1FaRjKWXxoo4n4JQl1XuqkF/A9NWque3KqM6pMggjzQ==
+  dependencies:
+    react-load-script "^0.0.6"
+
 react-helmet@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-6.1.0.tgz#a750d5165cb13cf213e44747502652e794468726"
@@ -11317,6 +11336,11 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-load-script@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/react-load-script/-/react-load-script-0.0.6.tgz#db6851236aaa25bb622677a2eb51dad4f8d2c258"
+  integrity sha512-aRGxDGP9VoLxcsaYvKWIW+LRrMOzz2eEcubTS4NvQPPugjk2VvMhow0wWTkSl7RxookomD1MwcP4l5UStg5ShQ==
 
 react-reconciler@^0.24.0:
   version "0.24.0"
@@ -14494,3 +14518,20 @@ zen-observable@^0.8.0, zen-observable@^0.8.14:
   version "0.8.15"
   resolved "https://registry.yarnpkg.com/zen-observable/-/zen-observable-0.8.15.tgz#96415c512d8e3ffd920afd3889604e30b9eaac15"
   integrity sha512-PQ2PC7R9rslx84ndNBZB/Dkv8V8fZEpk83RLgXtYd0fwUgEjseMn1Dgajh2x6S8QbZAFa9p2qVCEuYZNgve0dQ==
+
+"zingchart-constants@github:zingchart/zingchart-constants#master":
+  version "1.0.2"
+  resolved "https://codeload.github.com/zingchart/zingchart-constants/tar.gz/2cb0b3a55bbae8ee6fb943161fdd5b71618bc95f"
+
+zingchart-react@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/zingchart-react/-/zingchart-react-3.0.0.tgz#1a79379a92a525b32760e91dcf8993064d18d1d5"
+  integrity sha512-EX7wsjEuLos7QiidqBHhCV5pcQ3SWvuI7ji9WsdVekPsPOepl2yMiNczs37CahlBdi41b9u4JJsP0zgIr2OXJg==
+  dependencies:
+    zingchart latest
+    zingchart-constants "github:zingchart/zingchart-constants#master"
+
+zingchart@latest:
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/zingchart/-/zingchart-2.9.1.tgz#642e3e8b697b2c63fbb0c00408481926f7306cd1"
+  integrity sha512-LYCiqkzdDn5OxPqShfvUNcTtXxVgZDVqEztGINBb0EA9a1b1TOrLbW/BdJPpeobBahXSxvHYLO6NV/Dbw309Vw==
