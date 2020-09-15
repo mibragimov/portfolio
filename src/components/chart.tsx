@@ -49,7 +49,7 @@ export const ChartComponent = () => {
     <div className="container" style={{ width: "1000px" }}>
       <Chart
         width="100%"
-        height={250}
+        height={350}
         chartType="Calendar"
         loader={<div>Loading Chart</div>}
         data={[
