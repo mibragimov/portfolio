@@ -49,7 +49,7 @@ export const CardList: React.FC = () => {
         github {
           viewer {
             repositories(
-              first: 20
+              first: 25
               privacy: PUBLIC
               orderBy: { field: CREATED_AT, direction: DESC }
             ) {
